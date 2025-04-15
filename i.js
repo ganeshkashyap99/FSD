@@ -1,0 +1,11 @@
+import rw from "./filesync.js";
+import asyncRW from "./fileasync.js";
+import callbackRW from " ./fileCallback.js";
+callbackRW.callbackReader();
+callbackRW.callbackwrite();
+console.log(callbackRW);
+//asyncRW.asyncwriter();
+//const data =await asyncRW.asynreader();
+//console.log(data);
+//rw.syncwriter();
+//rw.syncrerader();
